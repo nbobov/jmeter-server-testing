@@ -1,0 +1,18 @@
+{
+    "name": "jmeter-server-testing",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "init": "node db/init.js"
+    },
+    "private": true,
+    "dependencies": {
+        "express": "^4.18.2",
+        "sqlite3": "^5.1.6"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
